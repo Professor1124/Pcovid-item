@@ -1,0 +1,258 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:  "Arial","Microsoft YaHei","黑体","宋体", sans-serif;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    background: linear-gradient(45deg, #2D85EC, #21CEB1);
+}
+
+.all {
+    background: url("img/圆花纹理.png") repeat 50%;
+}
+
+.world {
+    margin: 50px auto 0;
+    margin-top: 0;
+    padding:0 15px;
+    width: 800px;
+    background-color: rgb(255,255,255,.9);
+    border-radius: 20px;
+}
+
+.world-head {
+    overflow: hidden;
+    box-sizing: content-box;
+    width: 765px;
+    height: 70px;
+    border-bottom: 4px  solid  rgb(145, 145, 145, .3);
+}
+.world-head .header {
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 0 150px;
+    width: 600px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: rgb(255,255,255,.6);
+}
+.world-head li {
+    box-sizing: border-box;
+    float: left;
+    margin: 0 25px;
+    width: 100px;
+    height: 46px;
+    text-align: center;
+    line-height: 46px;
+    font-size: 18px;
+    font-weight: 700;
+    /*border: 1px solid black;*/
+}
+.world-head li a {
+    display: block;
+    color: #1AB7FF;
+}
+
+.world-head li a:hover{
+    border-bottom: 4px solid #1AB7FF;
+}
+
+.China-box {
+    width: 760px;
+    /*height: 500px;*/
+}
+.China-box .first-title{
+    margin-left: 20px;
+    font-size: 20px;
+
+}
+.China-box .first-date {
+    margin: 10px 20px;
+    font-size: 13px;
+    color: #666;
+}
+/*
+.active {
+    border-bottom: 4px solid #1AB7FF;
+}
+*/
+
+/*大图的*/
+.highcharts-credits {
+    display: none;
+}
+/*大图结束*/
+
+#container svg path {
+    color: red;
+    d: currentColor
+}
+.China-numSpan {
+    overflow: hidden;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    width: 760px;
+    /*height: 250px;*/
+    /*border: 1px solid black;*/
+}
+
+.China-numSpan ul li{
+    padding: 20px;
+    float: left;
+    width: 180px;
+    height: 120px;
+    text-align: center;
+    /*border: 1px solid black;*/
+}
+
+.China-numSpan ul li h4{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+
+.China-numSpan .count {
+    display: block;
+    margin: 5px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+.China-numSpan ul #count-one {
+    color: #ff6a57;
+}
+.China-numSpan ul #count-2 {
+    color: #e86d48;
+}
+.China-numSpan ul #count-3 {
+    color: #ec9217;
+}
+.China-numSpan ul #count-4 {
+    color: #545499;
+}
+.China-numSpan ul #count-5 {
+    color: #e83132;
+}
+.China-numSpan ul #count-6 {
+    color: #476da0;
+}
+.China-numSpan ul #count-7 {
+    color: #10aeb5;
+}
+.China-numSpan ul #count-8 {
+    color: #4d5054;
+}
+.China-numSpan ul li p {
+    display: inline-block;
+    font-size: 15px;
+    color: #999;
+}
+.China-numSpan ul li p span{
+    margin: 0 5px;
+}
+
+
+.China-box .tableTitle,
+.Foreigns-box .tableTitle {
+    box-sizing: border-box;
+    display: block;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    border-bottom: 2px solid #1E9FFF;
+}
+
+.Foreigns-box .first-title {
+    font-size: 20px  ;
+}
+
+.Foreigns-numSpan {
+    overflow: hidden;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    width: 760px;
+    /*height: 850px;*/
+    /*border: 1px solid black;*/
+}
+.Foreigns-numSpan ul {
+    padding-left: 50px;
+}
+.Foreigns-numSpan ul li{
+    padding: 40px;
+    float: left;
+    width: 220px;
+    height: 120px;
+    text-align: center;
+    /*border: 1px solid black;*/
+}
+
+.Foreigns-numSpan ul li h4{
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+
+.Foreigns-numSpan .count {
+    display: block;
+    margin: 5px 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+.Foreigns-numSpan #count-fr5 span,
+.Foreigns-numSpan #count-fr6 span{
+    width: 50px;
+    display: inline;
+}
+.Foreigns-numSpan ul #count-fr1 {
+    color: #ff6a57;
+}
+.Foreigns-numSpan ul #count-fr2 {
+    color: #10aeb5;
+}
+.Foreigns-numSpan ul #count-fr3 {
+    color: #4d5054;
+}
+.Foreigns-numSpan ul #count-fr4 {
+    color: #e83132;
+}
+.Foreigns-numSpan ul #count-fr5 {
+
+    color: #10aeb5;
+}
+.Foreigns-numSpan ul #count-fr6 {
+    color: #4d5054;
+}
+
+.Foreigns-numSpan ul li p {
+    display: inline-block;
+    font-size: 15px;
+    color: #999;
+}
+.Foreigns-numSpan ul li p span{
+    margin: 0 5px;
+}
+
+/*.bgimg{
+    position:absolute;
+    top: 1300px;
+    left: 360px;
+    height: 600px;
+    width: 800px;
+    border-radius: 50px;
+    background-image:url("img/hmj口罩与防护镜.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    zoom: 1;
+}*/
